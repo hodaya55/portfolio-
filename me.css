@@ -32,14 +32,16 @@ body::after {
 }
 
 nav {
-    /*     background-color: #333533; */
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #385167;
+    /*! background-color: rgba(0, 0, 0, 0.7); */
     position: fixed;
     width: 99%;
     /* width: 100%; */
     /*     left: 0; */
     height: 50px;
     top: 0px;
+    border-bottom-color: aliceblue;
+    border-bottom: 4px solid aliceblue;
 }
 
 nav li {
@@ -96,13 +98,14 @@ nav li a {
 }
 
 .reka {
-    background-color: rgba(0, 0, 0, 0.52);
+    /*! background-color: rgba(0, 0, 0, 0.52); */
     /* height: 400px; */
     padding: 90px;
     padding-right: 300px;
     margin-top: 100px;
     margin-left: 80px;
     margin-right: 80px;
+    background-color: #385167;
 }
 
 .reka img {
@@ -132,9 +135,10 @@ footer {
     /*  :0; */
     width: 100%;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    /*! background-color: rgba(0, 0, 0, 0.8); */
     height: 50px;
     padding-top: 10px;
+    background-color: #385167;
 }
 
 footer img {
@@ -181,7 +185,17 @@ footer a {
         top: 10px; */
 display: none;
     }
+    
+    .reka{
+margin-left: 10px;
+margin-right: 10px;
+    }
 }
+
+a:hover {
+  color: #ffae46;
+}
+
 
 /* *, ::after, ::before {
       
